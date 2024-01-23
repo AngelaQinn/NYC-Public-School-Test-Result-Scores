@@ -27,4 +27,4 @@ largest_std_dev.columns=['borough','num_schools','average_SAT','std_SAT']
 largest_std_dev = largest_std_dev.set_index("borough")
 largest_std_dev.average_SAT=largest_std_dev.average_SAT.round(2)
 largest_std_dev.std_SAT=largest_std_dev.std_SAT.round(2)
-largest_std_dev.head()
+print(largest_std_dev)
